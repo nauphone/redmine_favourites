@@ -1,0 +1,6 @@
+<% unless @issue.like? %>
+ <%= link_to l(:button_like), {:controller => 'favourites', :action => 'like', :id => params['id']}, :class => 'icon icon-like' %>
+<% else %>
+ <%= link_to l(:button_unlike), {:controller => 'favourites', :action => 'unlike', :id => params['id']}, :class => 'icon icon-unlike' %>
+<% end %>
+

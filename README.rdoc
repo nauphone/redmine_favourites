@@ -4,4 +4,6 @@ Bookmarking favourite tasks by Like button with Query inclusion
 
 = Install
 
-script/plugin install git://github.com/alvila/redmine_favourites.git
+script/plugin install https://github.com/nauphone/redmine_favourites
+script/plugin install https://github.com/nauphone/redmine_extend_hooks
+
